@@ -160,13 +160,17 @@ Now that we have a working Azure Function, we will deploy it to Azure.
 
 To create your own Azure Function:
 1) In Solution Explorer, right click on the CustomEntityLookup project and choose: Publish
+
 2) Choose "Azure Functions Consumption Plan"
+
 3) Choose "Create New" and click "Publish"
-4) This will launch a page to load your subscription (or request you log in to your subscription)
+
+4) This will launch a page to load your subscription (or request you log in to your subscription).
 
 ![](images/new-appservice.png)
 
 5) After it has deployed, open the [Azure Portal](https://portal.azure.com) and locate this Azure Function.
+
 6) Choose "Get Function URL" and copy the full URL (including the code parameter)
 
 ![](images/function-url.png)
