@@ -26,7 +26,7 @@ Now that we projected information to the Knowledge Store, this structured data c
  
 3.	When prompted, enter the key to your storage account.  You will find this in the Azure Portal as shown below.
 
-![](images/storeacct.png)
+    ![](images/storeacct.png)
 
 4.	Select the 3 tables we just produced, and click **Load**.
  
