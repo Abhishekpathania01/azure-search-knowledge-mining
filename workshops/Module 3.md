@@ -3,7 +3,8 @@
 
 In this module we will develop a custom skill to extend the data that was indexed in the previous module.  Your new skill will identify and extract disease names from the data set and store them as entities in a separate field attached to the document.  By doing this, it will allow us to leverage capabilities such as:
 
-1) Leveraging [facets](https://docs.microsoft.com/en-us/azure/search/search-filters-facets) to show the diseases and their counts that are mentioned in the corpus of search results
+1) Leveraging [facets](https://docs.microsoft.com/en-us/azure/search/search-filters-facets) to show the diseases and their counts that are mentioned in the corpus of search results.
+
 2) [Filtering](https://docs.microsoft.com/en-us/azure/search/search-filters) documents that refer to a specific disease
 
 To do this, we will leverage a "[Custom Skill](https://docs.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-web-api)" built using Azure Functions that will be called by Azure Cognitive Search with the text from the underlying document. The function will process this text and respond with the entities found in that text.  These entities will then be stored in a separate Azure Cognitive Search Collection field.
@@ -43,8 +44,11 @@ Spend a bit of time walking through the code as there are a few interesting thin
 ![](images/lookup2.png)
 
 1) First you will notice a set of global variables used for configuration which can be updated prior to deploying the function, one of which is words.csv.
+
 2) Next, you will notice that you can set parameters to determine 'fuzziness' of matches, case sensitvity and default accent senstivity.
-3) A Regular Expression based mechanism is used to iterate through the text sent by the users to find phrases that match those of the dictionary.  
+
+3) A Regular Expression based mechanism is used to iterate through the text sent by the users to find phrases that match those of the dictionary.
+
 4) The function returns a JSON document that contains both a set of found Entities as entities.
 
 ## Testing the Azure Function
