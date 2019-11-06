@@ -171,4 +171,3 @@ There are a number of items used above that are useful for development purposes,
 * We manually published the function, however, in production scenarios it would be far more realistic to leverage a Continuous Integration method of deployment
 * In the configuration of the function, we chose a consumption plan.  For production, you would want to take a closer look at usage, so that you can adjust the scale of the function, which very likely could be higher and might require a dedicated or scaled out environment.
 
-### Next: [Module 4: Learn the Object Model](Module&#32;4.md)
