@@ -81,7 +81,7 @@ Add a **Stacked column chart**. For the *Axis* pick the *lastUpdatePosted* field
 
 Then remove **quarter**, **month** and **day** since we only care about the year the clinical trial happened. 
 
-For the value axis, select **Count (DocumentId)** – this will allow us to graph the number of distinct trials per year. You can do this by simply dragging **DocumentId** field into the **Value** field. 
+12. For the value axis, select **Count (DocumentId)** – this will allow us to graph the number of distinct trials per year. You can do this by simply dragging **DocumentId** field into the **Value** field. 
 
 ![](images/mod5/ks-pbi-visual4-doccount-graph.png)
 
@@ -103,13 +103,13 @@ When you select a disease in the diseases table, you should now be able to see t
 
 Congratulations! Now you have an interactive report. Here are a few fun exercises you could do:
 
-1.	Click over the different years to see how research has evolved over the years in this data set. For instance, you will be able to see that research for *MPS* has actually become more global over the years for instance.
+1.&nbsp;Click over the different years to see how research has evolved over the years in this data set. For instance, you will be able to see that research for *MPS* has actually become more global over the years for instance.
 
-2.	Select a particular disease like *“Hypohidrosis”* and quickly see where the researchers that did that clinical-trial are located. 
+2.&nbsp;Select a particular disease like *“Hypohidrosis”* and quickly see where the researchers that did that clinical-trial are located. 
 
-3.	Try building your own visualization – notice there are many interesting visualizations in the Visualizations Marketplace.  Here is one we created with the Force-Directed-Graph Visualization to find documents that connect different diseases.
+3.&nbsp;T&nbsp;ry building your own visualization – notice there are many interesting visualizations in the Visualizations Marketplace.  Here is one we created with the Force-Directed-Graph Visualization to find documents that connect different diseases.
  
-    ![](images/mod5/ks-pbi-visual6-directed-graph.png)
+   ![](images/mod5/ks-pbi-visual6-directed-graph.png)
 
 
 
