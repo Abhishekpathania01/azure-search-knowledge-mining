@@ -111,7 +111,7 @@ Congratulations! Now you have an interactive report. Here are a few fun exercise
  
     ![](images/mod5/ks-pbi-visual6-directed-graph.png)
 
-### Next: [Optional: Module 7: Indexing data from Azure SQL](Module&#32;7.md)
+
 
 
 
