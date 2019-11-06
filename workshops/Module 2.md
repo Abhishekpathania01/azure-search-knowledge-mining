@@ -43,8 +43,7 @@ Update the following fields in the *appsettings.json* file to connect the web ap
 1. The **GraphFacet** is used for generating the relationship graph, set it to the name of the facet that you would like to use (i.e. "diseases"). Or leave blank if you won't use the node graph.
 
 
-##
-*Important:* 
+## Important:
 While this tutorial is optimizing for efficiency of allowing you to see results, and investigate the code, please note that entering your credentials into code is not a good practice to follow. We recommend you use a service like [Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-overview) to do this.
 
 ## 3. Set the **Startup Project**
