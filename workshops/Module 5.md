@@ -168,4 +168,3 @@ For the magnitude function, you can reverse the range, high to low, if you want 
 - distance should be used when you want to boost by proximity or geographic location. This function can only be used with Edm.GeographyPoint fields.
 - tag should be used when you want to boost by tags in common between documents and search queries. This function can only be used with Edm.String and Collection(Edm.String) fields.
 
-### Next: [Module 6: Analyzing extracted data with PowerBI](Module&#32;6.md)
