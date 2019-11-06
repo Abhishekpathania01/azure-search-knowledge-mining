@@ -14,15 +14,19 @@ Select Performance: *Standard* tier, not Premium
 Select Account kind: *StorageV2 (general purpose v2)*
 6. **Install** [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
 7. **Copy** the storage container that holds clinical trials from a read only location to your Storage Account.
+
     i. **Open** Azure Storage Explorer and select *Managed Accounts*, *Add and Account...*, *Use a shared access signature (SAS) URI*. The *Display name* will autofill. Select *Next*
+    
     ii. **Add** the following *URI*, then select *Next*, then select *Connect*
         ```
       https://kmworkshop.blob.core.windows.net/clinical-trials-small?st=2019-09-13T22%3A58%3A18Z&se=2020-09-14T22%3A58%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=M7MPfuxZvVvBkf0Jgg%2BvKWyB49RFYlGNhQ4%2F1nIJ9DU%3D
         ```
     iii. **Select** *Toggle Explorer* to view the Explorer. Right click on the *clinical-trials-small* Blob Container that you just connected to and select *Copy Blob Container*
         ![](images/copyblobcontainer.png)
+        
     iv. **Find** your Storage Account in the Explorer. Right click on its *Blob Containers* and select *Paste Blob Container*.
         ![](images/pasteblobcontainer.png)
+        
     v. Confirm that the container copied successfully by checking the Activities at the bottom of the Azure Storage Explorer.
 8.	**Create** an Azure Search
 
