@@ -51,19 +51,22 @@ Spend a bit of time walking through the code as there are a few interesting thin
 
 We will first test the application locally.  
 
-1) Right click on CustomEntityLookup in the Solution Explorer and choose "Set as StartUp Project"
-2) Press F5 - NOTE: You may need to allow the function to run
+1) Right click on CustomEntityLookup in the Solution Explorer and choose "Set as StartUp Project".
+
+2) Press F5 - NOTE: You may need to allow the function to run.
+
 3) Once the function is running it should supply you with the URL to use for POST calls.  Copy this URL.
 
 ![](images/azurefunction.png)
 
 
-4) Open PostMan and click on **New** to create a new Request (you can add this to any collection you'd like)
+4) Open PostMan and click on **New** to create a new Request (you can add this to any collection you'd like).
+
 5) Enter the URL copied and change the request type from GET to POST.
 
 ![](images/postman2.png)
 
-5) Click **Body** and below that choose **raw** and paste in the following JSON:
+6) Click **Body** and below that choose **raw** and paste in the following JSON:
 
 ```json
   {
@@ -79,7 +82,7 @@ We will first test the application locally.
 }
 ```
 
-6) Press Send and you should get a response that looks like the following.  This is the format that the Azure Search Indexer expects to receive and will form the basis of the response for this Custom Skill.
+7) Press Send and you should get a response that looks like the following.  This is the format that the Azure Search Indexer expects to receive and will form the basis of the response for this Custom Skill.
 
 
 ```json
@@ -141,8 +144,9 @@ We will first test the application locally.
     ]
 }
 ```
-7) Optionally you can set breakpoints on the Azure Function app to get a better idea on how it works
-8) Return to Visual Studio and stop the running project.
+8) Optionally you can set breakpoints on the Azure Function app to get a better idea on how it works. 
+
+9) Return to Visual Studio and stop the running project.
 
 ## Deploy the Azure Function
 
