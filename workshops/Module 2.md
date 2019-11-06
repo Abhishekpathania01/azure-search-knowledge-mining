@@ -63,5 +63,4 @@ Much of the UI is rendered dynamically by javascript. Some important files to kn
 
 2. **wwroot/js/details.js** - contains the code for rending the detail view once a result is selected
 
-### Next: [Module 3: Introduction to Azure Functions and Custom Skills](Module&#32;3.md)
 
